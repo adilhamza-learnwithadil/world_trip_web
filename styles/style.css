@@ -282,6 +282,39 @@ input::placeholder{
 }
 
 
+/* Our trip gallery that will inspire you */
+#gallery{
+  margin-bottom: 100px;
+}
+
+.gallery_img{
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 20px;
+}
+
+
+
+.gallery_gap{
+  gap: 60px;
+}
+
+.img{
+  display: grid;
+  place-content: center;
+  gap: 20px;
+}
+
+.img img{
+  border-radius: 20px;
+  width: 100%;
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.2);
+}
+
+.gallery_des{
+  width: 700px;
+}
+
 
 /* Why Choose Us */
 #why_choose_us{
