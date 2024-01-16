@@ -1,0 +1,195 @@
+@media screen and (max-width: 600px) {
+  /* Navbar */
+
+  .navbar ul {
+    display: none;
+  }
+
+  .bars {
+    display: block;
+    background: none;
+    border: none;
+    font-size: 25px;
+    transition: all 1s;
+  }
+
+  .bars:hover {
+    color: #ff5400;
+  }
+
+  .logo h2 {
+    font-size: 28px;
+  }
+
+  .logo h2 span {
+    font-size: 28px;
+  }
+
+  .logo img {
+    width: 60px;
+  }
+
+  .container_hed {
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  /* Banner */
+  #banner {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .bg_ing {
+    width: auto;
+    background-position: center;
+  }
+
+  .container {
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: auto;
+  }
+
+  .find_aria {
+    display: flex;
+    width: 287px;
+    padding: 16px;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 16px;
+    align-items: center;
+    margin: auto;
+  }
+
+  .find_aria input,
+  select,
+  .wi_full {
+    width: 255px;
+  }
+
+  .banner_texts {
+    text-align: center;
+    max-width: auto;
+    color: white;
+    padding: 12px;
+  }
+
+  .banner_texts h1 {
+    font-size: 30px;
+    font-weight: 800;
+  }
+
+  /* Our Popular Tours */
+
+  #popular_tour {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .tour_img img {
+    width: 100%;
+    margin-top: 25px;
+  }
+
+  .sec_heading {
+    font-size: 30px;
+  }
+
+  /* Choose Your Destination */
+  #destinations {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .two_place,
+  .three_place {
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .two_place .paces img {
+    width: 390px;
+    height: 180px;
+    gap: 20px;
+  }
+
+  .ama {
+    width: 390px;
+    height: 180px;
+    border-radius: 18px;
+  }
+
+  .places {
+    max-width: 100%;
+    width: 390px;
+  }
+
+  .bangla {
+    width: 390px;
+    height: 180px;
+  }
+
+  .ama .amazing_place {
+    max-width: 100%;
+    width: 390px;
+    height: 180px;
+  }
+
+  .container_oth {
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    align-items: center;
+  }
+
+  /* Why Choose Us */
+  #why_choose_us {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .flex_row {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .block {
+    margin-top: 0;
+  }
+
+
+  /* A Simple Perfect Place To Get Lost */
+  #perfect_place{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-bottom: 100px;
+  }
+
+  .perfect_place_video video{
+    max-width: 100%;
+    border-radius: 16px;
+    margin-top: 20px;
+  }
+
+
+
+
+  /* Newsletter */
+  #newsletter{
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .newsletter_form{
+    width: auto;
+  }
+
+  .newsletter_img img{
+    width: 100%;
+  }
+}
