@@ -357,7 +357,7 @@ input::placeholder{
 
 /* Newsletter */
 #newsletter{
-  
+  margin-bottom: 100px;
 }
 
 .newsletter_form{
@@ -458,5 +458,8 @@ footer{
   gap: 10px;
   margin: auto;
   margin-top: 20px;
+}
+
+.social a{
   color: #131318;
 }
